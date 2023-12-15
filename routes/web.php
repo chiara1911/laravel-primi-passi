@@ -20,3 +20,12 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('/about', function () {
+
+    $name = 'Minnie';
+    $surname = 'Mouse';
+
+    return view('pages.about', compact('name','surname'));
+
+}) -> name('about');
