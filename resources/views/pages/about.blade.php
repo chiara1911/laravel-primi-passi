@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="/resources/css/style.css">
         <title>Laravel</title>
 
         <!-- Fonts -->
@@ -17,10 +17,14 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                background-color: rgb(232, 237, 190);
             }
         </style>
     </head>
     <body class="antialiased container">
+        <div class="container">
+            
+        </div>
         <h2>{{$name}}</h2>
         <h3>{{$surname}}</h3>
        

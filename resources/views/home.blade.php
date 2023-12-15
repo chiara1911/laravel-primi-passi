@@ -23,6 +23,7 @@
     </head>
     <body class="antialiased container">
         <a href="{{ route ('about') }}"> About</a>
+       
 
         <div >
         <h2>{{$text1}}</h2>
